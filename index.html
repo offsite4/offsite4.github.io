@@ -1,1 +1,15 @@
-Hello World!
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Main</title>
+  <script src="elm.min.js"></script>
+</head>
+<body>
+  <div id="main"></div>
+  <script>
+    var app = Elm.Main.init({
+        node: document.querySelector('main')
+    });
+  </script>
+</body>
+</html>
